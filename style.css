@@ -1,0 +1,122 @@
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(202, 198, 198);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+
+.blue {
+ height: 30px;
+ background-color: rgb(83, 75, 75);
+}
+
+.top_content{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(202, 198, 198);
+    border-radius: 10px;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.images {
+    max-width: 1000px;
+    max-height: 600px;
+}
+
+.sale{
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.story {
+    padding: 25px;
+    background-color: rgb(83, 75, 75);
+    border-radius: 19px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+.story_heading {
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(240, 228, 228);
+}
+
+.story_text {
+    font-weight: 200;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(240, 228, 228);
+}
+
+.my_card{
+
+}
+
+.card-img{
+
+}
+
+
+.my_card_text{
+    color: rgb(240, 228, 228);
+}
+
+.my_card_body{
+padding: 10px;
+background-color: rgb(83, 75, 75);
+}
+
+.my_sett_form{
+    padding: 25px;
+    background-color: rgb(83, 75, 75);
+    border-radius: 19px;
+    margin-top: 25px;
+}
+
+.row {
+margin: 0;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(202, 198, 198);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+
+}
+
+@media (max-width: 900px){
+    
+    .top_content{
+    
+        flex-direction: column;
+        
+    }
+    .sale{
+      display: flex;    
+     flex-direction:row;
+        
+    }
+
+    .menu{
+        flex-direction: column;
+        align-items: center;
+    }
+}
